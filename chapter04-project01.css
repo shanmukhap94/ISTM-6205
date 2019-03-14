@@ -1,0 +1,105 @@
+header, footer {
+  color:  white;
+  background-color: #1A237E;
+  margin:  0em 4em 0.25em 4em;
+}
+header h1{
+  padding: 0.25em;
+  margin-left: 1em;
+}
+header p{
+  font-style: italic;
+  padding: 0.25em;
+  margin-top: -2em;
+  margin-left: 2.25em;
+}
+h1, h3{
+  font-family: "Trebuchet MS", "Palatino Linotype",sans-serif;
+}
+body {
+  font-family: "Mermaid", "calluna", serif;
+  background-color: #E8EAF6;
+}
+main {
+  margin: 1em 4em 1em 4em;
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+img{
+  max-width: 100%;
+}
+nav {
+  margin: 0em;
+  background-color: #3F51B5;
+  padding: 0.25em;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin: 0em 1em 0em  0em;
+}
+nav a {
+   color: #00B0FF;
+}
+nav a:hover{
+  color: white;
+  background-color: #F50057;
+}
+section{
+  margin:  1em 2em 1em 2em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #C5CAE9;
+  padding-top: 0em;
+}
+section h3{
+  color: white;
+  background-color: #7986CB;
+  padding: 1em;
+  margin-top: 0em;
+}
+section div p{
+  padding-left: 1em;
+  padding-top: 1em;
+}
+section div{
+  margin-top: -1em;
+}
+figure {
+  background-color: #C5CAE9;
+  border: solid 1px #999999;
+  margin: 0em;
+  margin-top: -1em;
+}
+figcaption {
+  margin: 1em;
+  color: #669999;
+}
+hr {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#reviews div p{
+  margin-top: -1em;
+}
+#reviews div .byline {
+  margin-bottom: -1em;
+  font-style: italic;
+  color: #7986CB;
+}
+#reviews div .byline time{
+  color: #FF80AB;
+}
+footer p{
+  margin: 0em 2em 0em 2em;
+  padding-top: 1em;
+}
+footer a{
+  padding: 0.25em;
+  color: #00B0FF;
+}
+footer a:hover{
+  color: white;
+  background-color: #F50057;
+}
